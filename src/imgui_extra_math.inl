@@ -29,8 +29,7 @@ inline bool operator!=(const ImVec2& lhs, const ImVec2& rhs)
 {
     return lhs.x != rhs.x || lhs.y != rhs.y;
 }
-# endif
-
+#endif
 # if IMGUI_VERSION_NUM < 19268
 inline ImVec2 operator*(const float lhs, const ImVec2& rhs)
 {
